@@ -4,6 +4,7 @@ version: 1.0.0
 description: A plugin that adds a cooldown to the use of enderpeals
 authors:
   - Varmetek
+softdepend: [PlaceholderAPI]
 
 commands:
   endercd:
