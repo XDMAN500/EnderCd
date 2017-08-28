@@ -1,0 +1,16 @@
+name: EnderCd
+main: me.varmetek.endercd.EnderCdPlugin
+version: 1.0.0
+description: A plugin that adds a cooldown to the use of enderpeals
+authors:
+  - Varmetek
+
+commands:
+  endercd:
+    description: "Used to reload the plugin"
+permissions:
+  endercd.admin:
+    description: "Used to reload the config"
+  endercd.bypass:
+    default: false
+    description: "Used to bypass the cool down completely"
