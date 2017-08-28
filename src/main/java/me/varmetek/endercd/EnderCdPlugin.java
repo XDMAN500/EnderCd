@@ -38,6 +38,7 @@ public class EnderCdPlugin extends JavaPlugin implements Listener
     Bukkit.getPluginManager().registerEvents(new EnderPearlListener(this), this);
     hasPlaceHolderApi = Bukkit.getPluginManager().isPluginEnabled("PlaceholderAPI");
     if(hasPlaceHolderApi){
+      getLogger().info("Hooking into PlaceholderAPI");
         new CoolDownHook().hook();
     }
     getCommand("endercd").setExecutor(new CommandEnderCd(this));
