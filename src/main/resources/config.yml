@@ -2,7 +2,7 @@
 delay: 10
 
 #The message sent to the player when attempting to use an ender pearl before cool down
-message_time: "&c EnderPearl timer: %endercd_cooldown%"
+message_time: "&c EnderPearl timer: %endercd_cooldown%s"
 
 # Should the cool down be represented on the xp bar?
 use_xpbar: false
