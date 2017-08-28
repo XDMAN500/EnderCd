@@ -15,7 +15,6 @@ public class ConfigManager
 
   public ConfigManager(EnderCdPlugin plugin){
     this.plugin = Preconditions.checkNotNull(plugin,"Plugin cannot be null");
- ;
     reConfig();
   }
 
